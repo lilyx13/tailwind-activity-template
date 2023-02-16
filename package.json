@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "styles": "npx tailwindcss -i assets/css/input.css -o assets/css/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lilyx13/tailwind-activity-template/issues"
   },
-  "homepage": "https://github.com/lilyx13/tailwind-activity-template#readme"
+  "homepage": "https://github.com/lilyx13/tailwind-activity-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
 }
